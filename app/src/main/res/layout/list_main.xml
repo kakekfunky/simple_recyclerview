@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/list_judul"
+        android:layout_width="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Baris Judul"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/list_deskripsi"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:textColor="@android:color/black"
+        android:text="Baris Deskprisi"
+        android:textSize="11sp"
+        android:layout_height="20dip" />
+
+</RelativeLayout>
